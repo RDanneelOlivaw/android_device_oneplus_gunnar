@@ -16,6 +16,11 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/gunnar/gunnar-vendor.mk)
 
+# Include Gapps
+ifeq ($(WITH_GMS),true)
+$(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
+endif
+
 # Set product shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
