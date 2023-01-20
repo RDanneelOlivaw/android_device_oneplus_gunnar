@@ -70,6 +70,10 @@ function blob_fixup() {
         vendor/etc/msm_irqbalance.conf)
             sed -i "s/IGNORED_IRQ=19,21,38$/&,209,218/" "${2}"
             ;;
+        vendor/lib64/sensors.ssc.so)
+            sed -i "s/qti.sensor.wise_light/android.sensor.light\x00/" "${2}"
+            "${SIGSCAN}" -p "EA D3 84 52 01 41 00 91 29 00 15 CB 29 41 00 D1 29 15 C9 93 4A 3F A0 72" -P "AA 00 80 52 01 41 00 91 29 00 15 CB 29 41 00 D1 29 15 C9 93 0A 00 A0 72" -f "${2}"
+            ;;
     esac
 }
 
