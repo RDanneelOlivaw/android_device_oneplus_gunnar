@@ -23,6 +23,7 @@ $(call inherit-product, vendor/oneplus/gunnar/gunnar-vendor.mk)
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Overlays
+$(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
