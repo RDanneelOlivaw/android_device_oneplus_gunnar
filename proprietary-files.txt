@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus Nord N20 (CPH2459_11.C.19).
+## are from OnePlus Nord N20 (CPH2459_11.C.20).
 
 # ACDB
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -75,6 +75,9 @@ vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
+
+# Audio firmware
+odm/firmware/tfa98xx.cnt
 
 # Audio libraries
 vendor/lib/soundfx/libasphere.so
@@ -1147,6 +1150,7 @@ vendor/lib64/hw/vulkan.adreno.so
 # GNSS
 odm/etc/izat.conf
 odm/etc/sap.conf
+vendor/app/CACertService/CACertService.apk
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/bin/loc_launcher
 vendor/bin/lowi-server
