@@ -8,7 +8,6 @@ swr_dlkm.ko
 wcd938x_slave_dlkm.ko
 rx_macro_dlkm.ko
 wcd_core_dlkm.ko
-rt_info.ko
 q6_notifier_dlkm.ko
 apr_dlkm.ko
 bt_fm_slim.ko
