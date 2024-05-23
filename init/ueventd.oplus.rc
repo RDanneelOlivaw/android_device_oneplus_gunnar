@@ -8,7 +8,7 @@
 /sys/class/oplus_chg/*  mmi_charging_enable    0660    system  system
 
 # NFC
-/dev/st21nfc                                  0660    nfc     nfc
+/dev/pn553                                     0660    nfc     nfc
 
 # Reserve
 /dev/block/bootdevice/by-name/oplusreserve1    0660    root    system
