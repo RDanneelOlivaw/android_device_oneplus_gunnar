@@ -84,29 +84,29 @@
          Must be overridden in platform specific overlays -->
     <integer-array name="config_autoBrightnessLevels">
         <item>1</item>
+        <item>2</item>
         <item>4</item>
-        <item>12</item>
-        <item>20</item>
-        <item>28</item>
-        <item>47</item>
-        <item>63</item>
-        <item>86</item>
-        <item>150</item>
-        <item>160</item>
-        <item>220</item>
-        <item>270</item>
-        <item>360</item>
-        <item>420</item>
-        <item>510</item>
-        <item>620</item>
-        <item>1000</item>
-        <item>2000</item>
-        <item>3100</item>
-        <item>5000</item>
-        <item>8000</item>
-        <item>12000</item>
-        <item>16000</item>
-        <item>20000</item>
+        <item>6</item>
+        <item>10</item>
+        <item>16</item>
+        <item>25</item>
+        <item>40</item>
+        <item>64</item>
+        <item>102</item>
+        <item>161</item>
+        <item>256</item>
+        <item>406</item>
+        <item>645</item>
+        <item>1024</item>
+        <item>1625</item>
+        <item>2580</item>
+        <item>4096</item>
+        <item>6502</item>
+        <item>10321</item>
+        <item>16384</item>
+        <item>26008</item>
+        <item>41284</item>
+        <item>65535</item>
     </integer-array>
 
     <!-- Array of desired screen brightness in nits corresponding to the lux values
