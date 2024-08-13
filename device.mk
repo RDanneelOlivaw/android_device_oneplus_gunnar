@@ -55,6 +55,9 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResTarget
 
 # Sensors
+PRODUCT_PACKAGES += \
+    sensors.ssc_custom_flag
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
