@@ -13,8 +13,8 @@ fi
 
 set -e
 
-export DEVICE=lemonade
-export DEVICE_COMMON=sm8350-common
+export DEVICE=gunnar
+export DEVICE_COMMON=sm6375-common
 export VENDOR=oneplus
 export VENDOR_COMMON=${VENDOR}
 
