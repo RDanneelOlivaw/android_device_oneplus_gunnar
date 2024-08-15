@@ -56,6 +56,7 @@ PRODUCT_PACKAGES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    sensors.oplus \
     sensors.ssc_custom_flag
 
 PRODUCT_COPY_FILES += \
