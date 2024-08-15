@@ -9,6 +9,9 @@ include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/gunnar
 
+# Fingerprint
+TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
