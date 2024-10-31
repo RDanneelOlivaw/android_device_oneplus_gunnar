@@ -12,6 +12,10 @@ DEVICE_PATH := device/oneplus/gunnar
 # Fingerprint
 TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/oplus:libudfps_extension.oplus
 
+# Kernel
+BOARD_ONEPLUS_DYNAMIC_PARTITIONS_SIZE := 5591007232
+BOARD_SUPER_PARTITION_SIZE = 11190403072
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
