@@ -23,8 +23,8 @@ PRODUCT_MODEL := CPH2459
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="CPH2459-user 12 RKQ1.211119.001 1a6adcc_57e-2aa7a0 release-keys" \
-    BuildFingerprint=OnePlus/CPH2459/OP5159L1:12/RKQ1.211119.001/1a6adcc_57e-2aa7a0:user/release-keys \
+    BuildDesc="CPH2459-user 12 RKQ1.211119.001 1b540b1_4439-393a85 release-keys" \
+    BuildFingerprint=OnePlus/CPH2459/OP5159L1:12/RKQ1.211119.001/1b540b1_4439-393a85:user/release-keys \
     DeviceName=OP5159L1 \
     DeviceProduct=CPH2459 \
     SystemDevice=OP5159L1 \
