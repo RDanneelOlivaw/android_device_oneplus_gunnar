@@ -36,8 +36,8 @@ PRODUCT_SYSTEM_DEVICE := OP5159L1
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="CPH2459-user 12 RKQ1.211119.001 1863297-1adfc-a2c6b release-keys" \
-    BuildFingerprint=OnePlus/CPH2459/OP5159L1:12/RKQ1.211119.001/1863297-1adfc-a2c6b:user/release-keys \
+    BuildDesc="CPH2459-user 12 RKQ1.211119.001 1a6adcc_57e-2aa7a0 release-keys" \
+    BuildFingerprint=OnePlus/CPH2459/OP5159L1:12/RKQ1.211119.001/1a6adcc_57e-2aa7a0:user/release-keys \
     DeviceName=OnePlusN20 \
     DeviceProduct=OnePlusN20 \
     SystemDevice=OnePlusN20 \
