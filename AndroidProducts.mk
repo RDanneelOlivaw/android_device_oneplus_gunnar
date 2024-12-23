@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_gunnar.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_gunnar-user \
-    lineage_gunnar-userdebug \
-    lineage_gunnar-eng
