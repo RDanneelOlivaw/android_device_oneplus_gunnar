@@ -356,7 +356,7 @@ PRODUCT_PACKAGES += \
     libjsoncpp.vendor \
     libqti_vndfwk_detect.vendor \
     libsqlite.vendor:64 \
-    libvndfwk_detect_jni.qti.vendor
+    libvndfwk_detect_jni.qti.vendor:64
 
 # QTI service tracker
 PRODUCT_PACKAGES += \
