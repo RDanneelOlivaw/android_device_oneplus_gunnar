@@ -386,7 +386,6 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@2.0-service.multihal \
-    libsensorndkbridge \
     sensors.oplus \
     sensors.ssc_custom_flag
 
