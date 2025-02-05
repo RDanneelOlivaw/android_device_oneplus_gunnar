@@ -195,7 +195,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData \
     libsdmcore \
     libsdmutils \
-    libtinyxml \
     memtrack.default \
     vendor.display.config@1.15.vendor \
     vendor.display.config@2.0 \
