@@ -521,7 +521,4 @@ PRODUCT_PACKAGES += \
     libpng.vendor:32 \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
