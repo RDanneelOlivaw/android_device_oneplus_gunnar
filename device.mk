@@ -191,7 +191,6 @@ PRODUCT_PACKAGES += \
     init.qti.display_boot.sh \
     libdisplayconfig.qti \
     libdisplayconfig.system.qti \
-    libmemutils \
     libqdMetaData \
     libsdmcore \
     libsdmutils \
